@@ -1,7 +1,15 @@
 import "./App.css";
+import CurrencyRow from "./CurrencyRow";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <h1>Currency Converter</h1>
+      <CurrencyRow />
+      <div>=</div>
+      <CurrencyRow />
+    </>
+  );
 }
 
 export default App;
